@@ -17,7 +17,7 @@ class Post(models.Model):
     updated = models.DateField(auto_now=True)
     status = models.CharField(max_length=10, choices=STATUS_CHOICES, default='draft')
 commit;lkj;lkj;klj;kj;ljk
-    class Meta:
+    class Meta:flfj;slkjf;sjf
         ordering = ('-publish',)
 
     def __str__(self):
